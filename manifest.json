@@ -1,0 +1,23 @@
+{
+"version": "1.0.0",
+"manifest_version": 3,
+"name": "POMODORO_TIMER",
+"description": "This Chrome extension helps users to save their time and get things done faster",
+"icons": {
+    "16": "icons/alarm-clock-16.png",
+    "32": "icons/alarm-clock-32.png",
+    "48": "icons/alarm-clock-48.png",
+    "128": "icons/alarm-clock-128.png"
+},
+"action": {
+    "default_icon": {
+        "48": "icons/alarm-clock-48.png",
+        "128": "icons/alarm-clock-128.png"
+    },
+    "default_popup": "popup.html"
+},
+"permissions": ["storage", "activeTab", "contextMenus","alarms","notifications"],
+"background": {
+    "service_worker": "service-worker.js"
+}
+}
