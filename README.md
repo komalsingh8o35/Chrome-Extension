@@ -1,5 +1,7 @@
 # Chrome-Extension
-The Pomodoro Timer Chrome extension that i have created uses the Chrome Extension API to help users manage their time effectively with the Pomodoro Technique. This technique involves breaking work into intervals, traditionally 25 minutes in length, separated by short breaks.
+The Pomodoro Timer Chrome extension that i have created with manifest version 3 and
+using Chrome Extension API to help users manage their time effectively with the Pomodoro Technique.
+This technique involves breaking work into intervals, traditionally 25 minutes in length, separated by short breaks.
 
 Here's a high-level overview of what your extension includes:
 Timer Functionality: A countdown timer to keep track of work intervals and breaks.
